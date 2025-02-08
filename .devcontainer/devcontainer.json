@@ -1,0 +1,16 @@
+  {
+    "name": "Mermaid Dev Container",
+    "image": "neenjaw/mermaid:8.9.2",
+    "workspaceFolder": "/workspace",
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "settings": {
+      // You can add container-specific VS Code settings here.
+      "terminal.integrated.shell.linux": "/bin/sh"
+    },
+    "extensions": [
+      "ms-azuretools.vscode-docker",
+      "bierner.markdown-mermaid"  // (optional) For previewing Mermaid in markdown
+    ]
+  }

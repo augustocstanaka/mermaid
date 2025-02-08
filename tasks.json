@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",               // Adjust this if using a different runtime
+        "request": "launch",
+        "name": "Launch Mermaid App",
+        "program": "${workspaceFolder}/app.js", // Your app's entry point file
+        "preLaunchTask": "npm: start",           // Optional: a task to run before starting
+        "console": "integratedTerminal"
+      }
+    ]
+  }
